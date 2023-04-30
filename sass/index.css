@@ -1,0 +1,422 @@
+.btn-main, .btn-main-s {
+  border-radius: 0.5rem;
+  padding: 0.25rem 1.5rem;
+  cursor: pointer;
+  transition: all 250ms ease;
+  border: none;
+  background-color: #0075FF;
+  color: white;
+}
+.btn-main-s {
+  font-size: 0.85rem;
+  padding: 0.2rem 1.1rem;
+  font-weight: 500;
+}
+.btn-main:hover, .btn-main-s:hover {
+  transform: translateY(-2px);
+  box-shadow: 2px 3px 10px grey;
+}
+
+.btn-sec, .btn-sec-s {
+  border-radius: 0.5rem;
+  padding: 0.25rem 1.5rem;
+  cursor: pointer;
+  transition: all 250ms ease;
+  color: black;
+  background-color: transparent;
+  border: none;
+  font-weight: 500;
+}
+.btn-sec:hover, .btn-sec-s:hover {
+  box-shadow: none;
+  transform: scale(1.1) translateY(-2px);
+  color: rgb(48, 41, 41);
+}
+.btn-sec-s {
+  font-size: 0.85rem;
+  padding: 0.2rem 1.1rem;
+  font-weight: 500;
+}
+
+.main-menu {
+  margin-bottom: 0;
+}
+.main-menu li {
+  font-size: 1.1rem;
+  list-style: none;
+  display: inline;
+  padding: 0.25rem;
+}
+.main-menu li a {
+  color: black;
+  text-decoration: none;
+  transition: all 350ms ease;
+}
+.main-menu li a:hover {
+  color: #0075FF;
+  text-decoration: underline;
+}
+
+.icon-sm {
+  box-shadow: 0px 0px 10px rgba(16, 15, 15, 0.148);
+  padding: 0.1rem 0.35rem;
+  font-size: 1.2rem;
+  border-radius: 50%;
+  transition: all 300ms ease;
+}
+.icon-sm:hover {
+  transform: translateY(-4%) scale(1.08);
+}
+.icon-sm i {
+  color: #0075FF;
+}
+
+.benefits {
+  display: flex;
+  flex-direction: column;
+}
+.benefits .icon {
+  color: rgb(79, 109, 192);
+  text-align: center;
+  font-size: 6.2rem;
+}
+.benefits .description .title {
+  font-size: 1.85rem;
+  text-align: center;
+}
+.benefits .description .text {
+  color: rgb(113, 113, 113);
+  font-weight: 600;
+  text-align: center;
+}
+.benefits .cta {
+  color: #0075FF;
+  font-weight: 600;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.icon-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.icon-desc i {
+  padding: 0;
+  color: #0075FF;
+  font-size: 7rem;
+  transition: transform 300ms ease;
+}
+.icon-desc i:hover {
+  transform: translateY(-2%);
+}
+.icon-desc .title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: -1rem;
+}
+
+.btn-main, .btn-main-s {
+  border-radius: 0.5rem;
+  padding: 0.25rem 1.5rem;
+  cursor: pointer;
+  transition: all 250ms ease;
+  border: none;
+  background-color: #0075FF;
+  color: white;
+}
+.btn-main-s {
+  font-size: 0.85rem;
+  padding: 0.2rem 1.1rem;
+  font-weight: 500;
+}
+.btn-main:hover, .btn-main-s:hover {
+  transform: translateY(-2px);
+  box-shadow: 2px 3px 10px grey;
+}
+
+.btn-sec, .btn-sec-s {
+  border-radius: 0.5rem;
+  padding: 0.25rem 1.5rem;
+  cursor: pointer;
+  transition: all 250ms ease;
+  color: black;
+  background-color: transparent;
+  border: none;
+  font-weight: 500;
+}
+.btn-sec:hover, .btn-sec-s:hover {
+  box-shadow: none;
+  transform: scale(1.1) translateY(-2px);
+  color: rgb(48, 41, 41);
+}
+.btn-sec-s {
+  font-size: 0.85rem;
+  padding: 0.2rem 1.1rem;
+  font-weight: 500;
+}
+
+.main-menu {
+  margin-bottom: 0;
+}
+.main-menu li {
+  font-size: 1.1rem;
+  list-style: none;
+  display: inline;
+  padding: 0.25rem;
+}
+.main-menu li a {
+  color: black;
+  text-decoration: none;
+  transition: all 350ms ease;
+}
+.main-menu li a:hover {
+  color: #0075FF;
+  text-decoration: underline;
+}
+
+.icon-sm {
+  box-shadow: 0px 0px 10px rgba(16, 15, 15, 0.148);
+  padding: 0.1rem 0.35rem;
+  font-size: 1.2rem;
+  border-radius: 50%;
+  transition: all 300ms ease;
+}
+.icon-sm:hover {
+  transform: translateY(-4%) scale(1.08);
+}
+.icon-sm i {
+  color: #0075FF;
+}
+
+.benefits {
+  display: flex;
+  flex-direction: column;
+}
+.benefits .icon {
+  color: rgb(79, 109, 192);
+  text-align: center;
+  font-size: 6.2rem;
+}
+.benefits .description .title {
+  font-size: 1.85rem;
+  text-align: center;
+}
+.benefits .description .text {
+  color: rgb(113, 113, 113);
+  font-weight: 600;
+  text-align: center;
+}
+.benefits .cta {
+  color: #0075FF;
+  font-weight: 600;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.icon-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.icon-desc i {
+  padding: 0;
+  color: #0075FF;
+  font-size: 7rem;
+  transition: transform 300ms ease;
+}
+.icon-desc i:hover {
+  transform: translateY(-2%);
+}
+.icon-desc .title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: -1rem;
+}
+
+html {
+  min-height: 100vh;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 4.5rem;
+  border-bottom: 1px solid rgb(171, 161, 161);
+  box-shadow: 0 0 6px grey;
+}
+
+.logo img {
+  max-width: 8rem;
+  transition: transform 250ms ease;
+}
+.logo img:hover {
+  transform: scale(1.1);
+}
+
+.sec-home {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 992px;
+  margin: auto;
+  padding: 3rem;
+}
+.sec-home .home-cta {
+  flex: 1;
+}
+.sec-home .home-cta .cta-text {
+  color: #0075FF;
+}
+.sec-home .home-cta .home-title {
+  width: 25rem;
+  font-size: 3rem;
+}
+.sec-home .home-cta .home-description {
+  width: 25rem;
+}
+.sec-home .home-img img {
+  transition: transform 350ms ease;
+}
+.sec-home .home-img img:hover {
+  transform: translateY(-2%);
+}
+
+.sec-features, .onboarding .intro, .sec-benefits .intro {
+  width: 100%;
+  max-width: 992px;
+  margin: auto;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sec-features .intro, .onboarding .intro .intro, .sec-benefits .intro .intro {
+  text-align: center;
+}
+.sec-features .intro h3, .onboarding .intro .intro h3, .sec-benefits .intro .intro h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.sec-features .intro p, .onboarding .intro .intro p, .sec-benefits .intro .intro p {
+  font-size: 0.95rem;
+  color: rgb(143, 143, 143);
+}
+.sec-features .features, .onboarding .intro .features, .sec-benefits .intro .features {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.sec-features .features .text, .onboarding .intro .features .text, .sec-benefits .intro .features .text {
+  padding: 3rem 0;
+  flex: 1;
+}
+.sec-features .features .text .feature, .onboarding .intro .features .text .feature, .sec-benefits .intro .features .text .feature {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.sec-features .features .text .feature .description, .onboarding .intro .features .text .feature .description, .sec-benefits .intro .features .text .feature .description {
+  margin-left: 1rem;
+  max-width: 20rem;
+}
+.sec-features .features .text .feature .description .d-title, .onboarding .intro .features .text .feature .description .d-title, .sec-benefits .intro .features .text .feature .description .d-title {
+  font-size: 1.15rem;
+}
+.sec-features .features .text .feature .description .d-text, .onboarding .intro .features .text .feature .description .d-text, .sec-benefits .intro .features .text .feature .description .d-text {
+  font-size: 1rem;
+}
+.sec-features .features .image, .onboarding .intro .features .image, .sec-benefits .intro .features .image {
+  max-width: 30rem;
+  transition: transform 300ms ease;
+}
+.sec-features .features .image:hover, .onboarding .intro .features .image:hover, .sec-benefits .intro .features .image:hover {
+  transform: scale(1.03);
+}
+
+.sec-benefits {
+  border-top: 1px solid rgb(187, 187, 187);
+  margin-bottom: 4rem;
+}
+.sec-benefits .b-cards {
+  width: 100%;
+  padding: 0 4rem 2rem 4remx;
+}
+
+.sec-kpis {
+  margin-bottom: 4rem;
+  padding: 1.8rem;
+  width: 100%;
+  background-color: #0075FF;
+  color: white;
+}
+.sec-kpis .kpi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sec-kpis .kpi .number {
+  font-size: 3.3rem;
+  font-weight: 500;
+}
+.sec-kpis .kpi .desc {
+  font-size: 0.9rem;
+  color: rgb(185, 185, 185);
+}
+
+.onboarding {
+  margin-bottom: 5rem;
+}
+.onboarding .steps {
+  padding: 0 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.onboarding .steps .separator {
+  flex: 1;
+  border-top: 2px solid rgb(202, 202, 202);
+  margin: 0 0.5rem;
+}
+
+.footer {
+  padding: 5rem 4rem;
+  background-color: #f4f8fe;
+  background-image: url(https://github.com/Open-Bootcamp/ResolucionEjercicios/blob/main/HTMLyCSS/14-15-Proyecto%20Final/assets/img/bg.png?raw=true);
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+.footer .footer-cta {
+  width: 50%;
+}
+.footer .footer-cta .f-title {
+  font-size: 1.8rem;
+}
+.footer .footer-cta .f-cta {
+  font-size: 1.3rem;
+}
+
+@media (max-width: 768px) {
+  .onboarding .steps {
+    flex-direction: column;
+  }
+  .onboarding .steps .icon-desc .title {
+    text-align: center;
+  }
+  .footer {
+    background-image: none;
+  }
+  .footer .footer-cta {
+    width: 100%;
+    text-align: center;
+  }
+}/*# sourceMappingURL=index.css.map */

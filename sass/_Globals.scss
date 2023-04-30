@@ -1,0 +1,219 @@
+@import "componentes";
+
+@mixin section-display{
+    width: 100%;
+    max-width: 992px;
+    margin:  auto;
+    padding: 3rem;
+}
+html{
+    min-height: 100vh;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 4.5rem;
+    border-bottom: 1px solid rgb(171, 161, 161);
+    box-shadow: 0 0 6px grey;
+}
+
+.logo img{
+    max-width: 8rem;
+    transition: transform 250ms ease;
+
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+
+.sec-home{
+    display: flex;
+    align-items: center;
+    @include section-display();
+
+    .home-cta{
+        flex: 1;
+
+        .cta-text{
+            color: $btn-color;
+        }
+        .home-title{
+            width: 25rem;
+            font-size: 3rem;
+        }
+        .home-description{
+            width: 25rem;
+        }
+    }
+     
+    .home-img img{
+       transition: transform 350ms ease;
+
+       &:hover{
+        transform: translateY(-2%);
+       }
+    }
+}
+
+.sec-features{
+    @include section-display();
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .intro{
+        text-align: center;
+
+        h3{
+            font-size: 1.8rem;
+            font-weight: 600;
+        }
+        p{
+            font-size: 0.95rem;
+            color: rgb(143, 143, 143);
+        }
+    }
+
+    .features{
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+
+        .text{
+            padding: 3rem 0;
+            flex: 1;
+            .feature{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+
+                .description{
+                    margin-left: 1rem;
+                    max-width:20rem;
+                    .d-title{
+                        font-size: 1.15rem;
+                    }
+                    
+                    .d-text{
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+
+
+        .image{
+            max-width: 30rem;
+           transition: transform 300ms ease;
+
+           &:hover{
+            transform: scale(1.03);
+           }
+        }
+    }
+}
+
+.sec-benefits{
+    border-top: 1px solid rgb(187, 187, 187);
+    margin-bottom: 4rem;
+    .intro{
+        @extend .sec-features, .intro;
+    }
+    .b-cards{
+        width: 100%;
+        padding: 0 4rem 2rem 4remx;
+    }
+}
+
+.sec-kpis{
+    margin-bottom: 4rem;
+    padding: 1.8rem;
+    width: 100%;
+    background-color: $btn-color;
+    color: white;
+
+    .kpi{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .number{
+            font-size: 3.3rem;
+            font-weight: 500;
+        }
+        .desc{
+            font-size: 0.9rem;
+            color: rgb(185, 185, 185);
+        }
+    }
+}
+
+.onboarding{
+    margin-bottom: 5rem;
+    .intro{
+        @extend .sec-features, .intro;
+    }
+  
+    .steps{
+        padding: 0 7rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .separator{
+            flex: 1;
+            border-top: 2px solid rgb(202, 202, 202);
+            margin: 0 0.50rem;
+        }
+    }
+
+}
+
+.footer{
+    padding: 5rem 4rem;
+    background-color: $footer-color;
+    background-image: url(https://github.com/Open-Bootcamp/ResolucionEjercicios/blob/main/HTMLyCSS/14-15-Proyecto%20Final/assets/img/bg.png?raw=true);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    .footer-cta{
+        width: 50%;
+        .f-title{
+            font-size: 1.8rem;
+        }
+        .f-cta{
+            font-size: 1.3rem;
+        }
+    }
+
+}
+
+@media (max-width:768px){
+    .onboarding{
+        .steps{
+            flex-direction: column;
+
+            .icon-desc{
+                .title{
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .footer{
+        background-image: none;
+
+        .footer-cta{
+            width: 100%;
+            text-align: center;
+        }
+    }
+}
